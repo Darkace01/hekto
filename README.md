@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Hekto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created from this design [Figma Community](<https://www.figma.com/community/file/967759864749832815/Project---Hekto-(An-Ecommerce-Ui-Kit)>).
 
 ## Available Scripts
 
