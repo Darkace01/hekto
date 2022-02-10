@@ -1,4 +1,8 @@
 import React from "react";
+import { FaSearch } from "react-icons/fa";
+
+//components
+import CustomButton from "../CustomButton";
 
 const SearchBar = () => {
   return (
@@ -9,9 +13,9 @@ const SearchBar = () => {
         placeholder="Search"
         aria-label="Search"
       />
-      <button className="btn btn-outline-success rounded-0" type="submit">
-        Search
-      </button>
+      <CustomButton>
+        <FaSearch />
+      </CustomButton>
     </form>
   );
 };
