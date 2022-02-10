@@ -15,8 +15,8 @@ import { Text } from "./TopBar.styles";
 // import Logo from "../Logo";
 
 const TopBar = () => (
-  <nav className="navbar fixed-top navbar-light top-bar-bg">
-    <div className="container ">
+  <nav className="navbar  navbar-light top-bar-bg">
+    <div className="theme-container ">
       <div className="d-flex justify-content-between p-2">
         <div>
           <Text>

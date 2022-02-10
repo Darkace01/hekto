@@ -7,4 +7,5 @@ export const LogoImage = styled.h1`
   font-size: 34px;
   line-height: 34px;
   color: var(--color-accent);
+  margin-bottom: 0;
 `;

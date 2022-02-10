@@ -1,0 +1,12 @@
+.nav-link {
+  color: var(--color-nav-link) !important;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.nav-link.active {
+  color: var(--color-primary) !important;
+}
