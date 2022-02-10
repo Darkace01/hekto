@@ -7,10 +7,16 @@ export const GlobalStyle = createGlobalStyle`
     --color-accent-light: #F6F5FF;
     --color-accent-light-2: #E7E4F8;
     --color-white: #FFFFFF;
+    --color-text:#F1F1F1;
 }
+* {
+        box-sizing: border-box;
+        font-family: 'Lato', sans-serif;
+        margin-block: 0;
+    }
 
 body{
-    font-family: 'Lato', sans-serif;
+    
     margin: 0;
     padding: 0;
 }
