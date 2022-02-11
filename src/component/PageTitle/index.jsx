@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 //styling
 import "./PageTitle.css";
@@ -21,7 +21,7 @@ const PageTitle = () => {
     <div className="page-title">
       <h1>{pageTitle}</h1>
       <div className="page-title-sub">
-        {/* <a href={url}>{pageTitle}</a> */}
+        <Link to={params.pathname}>{pageTitle}</Link>
       </div>
     </div>
   );

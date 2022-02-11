@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 //styling
 import "./NavBar.css";
@@ -11,9 +12,9 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light py-3">
       <div className="theme-container">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <Logo />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -28,58 +29,48 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item dropdown">
-              <a
+              <Link
                 className="nav-link dropdown-toggle active"
-                href="#"
+                to="/"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Home
-              </a>
+              </Link>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
+                  <Link className="dropdown-item" to="/login">
+                    Login
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pages
-              </a>
+              <Link className="nav-link" to="/about-us">
+                About Us
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pages
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/products">
                 Products
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="blog">
                 Blog
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/shop">
                 Shop
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/contact-us">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
           <SearchBar />
