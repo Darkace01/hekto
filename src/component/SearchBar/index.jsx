@@ -14,7 +14,6 @@ const SearchBar = () => {
       <input
         className="form-control rounded-0 w-100"
         type="search"
-        placeholder="Search"
         aria-label="Search"
       />
       <CustomButton>
