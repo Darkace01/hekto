@@ -12,6 +12,7 @@ export const Wrapper = styled.button`
   outline: none;
   padding: 0 20px;
   cursor: pointer;
+  width: ${({ isFullWidth }) => (isFullWidth ? "100%" : "inherit")};
 
   :hover {
     opacity: 0.8;
