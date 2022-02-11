@@ -6,6 +6,6 @@ export const LogoImage = styled.h1`
   font-weight: bold;
   font-size: 34px;
   line-height: 34px;
-  color: var(--color-accent);
+  color: var(--color-accent-dark);
   margin-bottom: 0;
 `;

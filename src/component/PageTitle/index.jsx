@@ -18,10 +18,17 @@ const PageTitle = () => {
     }
   }, [pageTitle, params]);
   return (
-    <div className="page-title">
-      <h1>{pageTitle}</h1>
-      <div className="page-title-sub">
-        <Link to={params.pathname}>{pageTitle}</Link>
+    <div className="page-title-bg">
+      <div className="theme-container">
+        <div className="page-title">
+          <h1 className="page-title-h1">{pageTitle}</h1>
+          <div className="page-title-sub">
+            Home
+            {pageTitle.toLowerCase() !== "home" ? (
+              <Link to={params.pathname}> . {pageTitle}</Link>
+            ) : null}
+          </div>
+        </div>
       </div>
     </div>
   );

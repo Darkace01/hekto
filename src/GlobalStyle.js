@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     --color-white: #FFFFFF;
     --color-text:#F1F1F1;
     --color-nav-link: #0D0E43;
+    --color-accent-dark: #101750;
 }
 * {
         box-sizing: border-box;
