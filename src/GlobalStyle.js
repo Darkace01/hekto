@@ -42,13 +42,13 @@ body{
         max-width: 720px;
     }
     @media (min-width: 992px){
-        max-width: 960px;
+        max-width: 810px;
     }
     @media (min-width: 1200px){
-        max-width: 1200px;
+        max-width: 980px;
     }
     @media (min-width: 1400px){
-        max-width: 1480px;
+        max-width: 1200px;
     }
 }
 
