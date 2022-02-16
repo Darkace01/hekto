@@ -17,7 +17,7 @@ const PageTitle = () => {
       setPageTitle(removeSpecialChars(params.pathname));
     }
   }, [pageTitle, params]);
-  return (
+  return pageTitle === "Home" ? null : (
     <div className="page-title-bg">
       <div className="theme-container">
         <div className="page-title">

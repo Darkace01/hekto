@@ -53,4 +53,14 @@ body{
     }
 }
 
+.awssld__content{
+    img{
+        height: auto;
+    }
+}
+
+.awssld__container{
+    padding-bottom: 39%;
+}
+
 `;
