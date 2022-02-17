@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     --color-text:#F1F1F1;
     --color-nav-link: #0D0E43;
     --color-accent-dark: #101750;
+    --color-blue:#1A0B5B;
 }
 * {
         box-sizing: border-box;
@@ -49,7 +50,7 @@ body{
         max-width: 980px;
     }
     @media (min-width: 1400px){
-        max-width: 1200px;
+        max-width: 980px;
     }
 }
 

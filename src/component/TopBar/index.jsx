@@ -17,7 +17,7 @@ import { Text } from "./TopBar.styles";
 const TopBar = () => (
   <nav className="navbar  navbar-light top-bar-bg">
     <div className="theme-container ">
-      <div className="d-flex justify-content-between p-2">
+      <div className="d-flex justify-content-between px-2 py-1">
         <div>
           <Text>
             <FaMailBulk className="me-2" />
